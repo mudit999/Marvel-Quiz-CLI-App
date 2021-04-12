@@ -6,7 +6,6 @@ let userName = readlineSync.question("Enter your name: "+"\r\n" );
 console.log('Welcome ' + chalk.bold.rgb(210,105,30)(userName) + '!! Do you watch Marvel Movies? '+"\r\n" );
 
 let score = 0;
-
 let highest_score = {
   name: 'Mudit',
   score: '7'
